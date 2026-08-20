@@ -190,9 +190,9 @@ export function SiteFooter() {
             All rights reserved.
           </span>
 
-          <span className="text-[#EA3808] font-semibold">
-            100% Pure Veg Catering Specialists
-          </span>
+         <span className="text-[#15803D] font-semibold">
+  100% Pure Veg Catering Specialists
+</span>
 
         </div>
       </div>
