@@ -99,7 +99,7 @@ function PackagesPage() {
         <section
           key={pkg.id}
           id={pkg.id}
-          className={`py-20 px-4 overflow-hidden ${idx % 2 === 1 ? "bg-gradient-warm" : ""}`}
+       className="py-20 px-4 overflow-hidden bg-gradient-to-br from-[#FCFAF5] via-[#F7F2E7] to-[#F1E8D5]"
         >
           <div className="max-w-7xl mx-auto">
             <div className="grid lg:grid-cols-2 gap-12 items-start">

@@ -201,30 +201,48 @@ function ContactPage() {
           </div>
 
           {/* Service Areas */}
-          <div className="bg-card rounded-3xl p-8 shadow-card border border-border/50">
-            <div className="flex items-center gap-3 mb-4">
-              <div className="p-2.5 rounded-xl bg-primary/10 text-primary">
-                <MapPin className="w-6 h-6 text-primary" />
-              </div>
-              <div>
-                <h3 className="text-xl font-display font-bold text-primary">
-                  Coverage Across Gujarat
-                </h3>
-                <p className="text-xs text-muted-foreground">
-                  We cater at your venue anywhere in Gujarat
-                </p>
-              </div>
-            </div>
+       {/* GOOGLE MAP */}
+<div className="bg-card rounded-3xl p-4 shadow-card border border-border/50 overflow-hidden">
+  <div className="flex items-center gap-3 px-4 pt-4 pb-4">
+    <div className="p-2.5 rounded-xl bg-primary/10 text-primary">
+      <MapPin className="w-6 h-6 text-primary" />
+    </div>
 
-            <div className="grid grid-cols-2 gap-2 mt-4">
-              {CITIES.map((city) => (
-                <div key={city} className="flex items-center gap-2 text-sm text-foreground/80 py-1">
-                  <CheckCircle2 className="w-4 h-4 text-emerald-600 shrink-0" />
-                  <span>{city}</span>
-                </div>
-              ))}
-            </div>
-          </div>
+    <div>
+      <h3 className="text-xl font-display font-bold text-primary">
+        Find HariOm Caterers
+      </h3>
+      <p className="text-xs text-muted-foreground">
+        Visit our location or get directions
+      </p>
+    </div>
+  </div>
+
+  <div className="rounded-2xl overflow-hidden border border-border/50">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3643.8877029083555!2d72.52250627527975!3d23.00247687918782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e852e5aace4e9%3A0xbb2c897bf0fb404a!2sHariOm%20Caterers!5e1!3m2!1sen!2sin!4v1787213252633!5m2!1sen!2sin"
+      width="100%"
+      height="400"
+      style={{ border: 0 }}
+      allowFullScreen
+      loading="lazy"
+      referrerPolicy="strict-origin-when-cross-origin"
+      title="HariOm Caterers Location"
+    />
+  </div>
+
+  <div className="px-4 pt-4 pb-2">
+    <a
+      href="https://www.google.com/maps/search/?api=1&query=HariOm+Caterers"
+      target="_blank"
+      rel="noreferrer"
+      className="inline-flex items-center gap-2 text-sm font-bold text-[#EA3808] hover:gap-3 transition-all"
+    >
+      <MapPin className="w-4 h-4" />
+      Get Directions
+    </a>
+  </div>
+</div>
         </motion.div>
       </section>
     </SiteLayout>

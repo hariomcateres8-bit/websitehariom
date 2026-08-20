@@ -1,6 +1,17 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useState } from "react";
-import { ArrowRight, Sparkles, Utensils, Users, Award, ChefHat, Star } from "lucide-react";
+import {
+  ArrowRight,
+  Sparkles,
+  Utensils,
+  Users,
+  Award,
+  ChefHat,
+  Star,
+  MessageCircle,
+  Instagram,
+  Facebook,
+} from "lucide-react";
 import { motion } from "motion/react";
 import { SiteLayout } from "@/components/site-layout";
 import { LogoIntro } from "@/components/logo-intro";
@@ -14,7 +25,9 @@ import realFoodCanapes2 from "@/assets/images/WhatsApp Image 2026-08-01 at 10.31
 import realFoodDips3 from "@/assets/images/WhatsApp Image 2026-08-01 at 10.31.58 AM (3).jpeg";
 import realFoodPaneer4 from "@/assets/images/WhatsApp Image 2026-08-01 at 10.31.58 AM (7).jpeg";
 import { RotatingDishShowcase } from "@/components/rotating-dish-showcase";
-import heroVideo from "@/assets/videos/hero.mp4";
+import heroVideo from "@/assets/video/1.mp4";
+import { FaWhatsapp } from "react-icons/fa";
+
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -73,19 +86,20 @@ function HomePage() {
               <div className="inline-flex items-center gap-2 bg-[#EA3808]/10 border border-[#EA3808]/25 rounded-full px-4 py-1.5 text-xs font-bold tracking-widest uppercase text-[#EA3808] shadow-2xs">
                 <Sparkles className="w-3.5 h-3.5 text-[#EA3808]" /> Premium Pure Veg Caterers
               </div>
-              <h1 className="mt-6 text-5xl sm:text-6xl lg:text-7xl leading-[1.08] font-bold text-stone-900 tracking-tight">
-                A feast worthy of your{" "}
-                <span className="text-[#EA3808]">
-                  <TypewriterText
-                    words={[
-                      "grandest moments.",
-                      "royal celebrations.",
-                      "dream receptions.",
-                      "unforgettable events.",
-                    ]}
-                  />
-                </span>
-              </h1>
+            <h1 className="mt-6 text-4xl sm:text-3xl lg:text-6xl leading-[1.08] font-bold text-stone-900 tracking-tight">
+  A feast worthy of your
+  <br />
+  <span className="text-[#EA3808] block">
+    <TypewriterText
+      words={[
+        "grandest moments.",
+        "royal celebrations.",
+        "dream receptions.",
+        "unforgettable events.",
+      ]}
+    />
+  </span>
+</h1>
               <p className="mt-6 text-lg text-stone-600 max-w-xl font-normal leading-relaxed">
                 For over two decades, Hariom Caterers has crafted royal vegetarian experiences —
                 from intimate weddings to grand receptions of thousands.
@@ -441,7 +455,67 @@ function HomePage() {
             </div>
           </motion.div>
         </section>
+         <div className="fixed right-4 bottom-6 z-[9999] flex flex-col gap-3">
+
+        {/* WhatsApp */}
+    {/* WhatsApp */}
+<a
+  href={`https://wa.me/${CONTACT.whatsapp}`}
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="WhatsApp"
+  className="group relative flex items-center justify-center w-14 h-14 rounded-full bg-[#25D366] text-white shadow-[0_0_20px_rgba(37,211,102,0.55)] hover:shadow-[0_0_40px_rgba(37,211,102,1)] hover:scale-110 transition-all duration-300"
+>
+  <span className="absolute inset-0 rounded-full bg-[#25D366] opacity-40 animate-ping" />
+
+  <FaWhatsapp
+    className="relative z-10 w-8 h-8"
+    aria-hidden="true"
+  />
+
+  <span className="absolute right-16 whitespace-nowrap bg-stone-900 text-white text-xs font-bold px-3 py-2 rounded-lg opacity-0 translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300 pointer-events-none">
+    WhatsApp
+  </span>
+</a>
+
+
+        {/* Instagram */}
+        <a
+          href="https://www.instagram.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Instagram"
+          className="group relative flex items-center justify-center w-14 h-14 rounded-full bg-gradient-to-tr from-[#F58529] via-[#DD2A7B] to-[#8134AF] text-white shadow-[0_0_20px_rgba(221,42,123,0.55)] hover:shadow-[0_0_40px_rgba(221,42,123,1)] hover:scale-110 transition-all duration-300"
+        >
+          <Instagram className="relative z-10 w-7 h-7" />
+
+          <span className="absolute right-16 whitespace-nowrap bg-stone-900 text-white text-xs font-bold px-3 py-2 rounded-lg opacity-0 translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300 pointer-events-none">
+            Instagram
+          </span>
+        </a>
+
+
+        {/* Facebook */}
+        <a
+          href="https://www.facebook.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="Facebook"
+          className="group relative flex items-center justify-center w-14 h-14 rounded-full bg-[#1877F2] text-white shadow-[0_0_20px_rgba(24,119,242,0.55)] hover:shadow-[0_0_40px_rgba(24,119,242,1)] hover:scale-110 transition-all duration-300"
+        >
+          <Facebook
+            className="relative z-10 w-7 h-7"
+            fill="white"
+          />
+
+          <span className="absolute right-16 whitespace-nowrap bg-stone-900 text-white text-xs font-bold px-3 py-2 rounded-lg opacity-0 translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300 pointer-events-none">
+            Facebook
+          </span>
+        </a>
+
+      </div>
       </SiteLayout>
     </>
   );
+
 }

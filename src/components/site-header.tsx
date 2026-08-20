@@ -66,12 +66,12 @@ const SERVICE_DROPDOWN_ITEMS = [
 
 const links = [
   { to: "/", label: "Home" },
-  { to: "/about", label: "About" },
+  { to: "/about", label: "About Us" },
   { to: "/services", label: "Services", hasDropdown: true },
-  { to: "/packages", label: "Packages" },
+  { to: "/packages", label: " Menu Packages" },
   { to: "/menu-planner", label: "Menu Planner" },
-  { to: "/gallery", label: "Gallery" },
-  { to: "/contact", label: "Contact" },
+  { to: "/gallery", label: "Gallery & Videos" },
+  { to: "/contact", label: "Contact Us" },
 ];
 
 export function SiteHeader() {
@@ -100,8 +100,8 @@ export function SiteHeader() {
 
   const handleCatalogDownload = () => {
     const link = document.createElement("a");
-    link.href = "/pdf/Hariom-Master-Menu-Catalog.pdf";
-    link.download = "Hariom-Master-Menu-Catalog.pdf";
+    link.href = "/pdf/catelog.pdf";
+    link.download = "catelog.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
