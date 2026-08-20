@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Circular Fork & Spoon Emblem -->
+  <!-- Top semicircle in catering red-orange -->
+  <path d="M 6,47 A 44,44 0 0,1 94,47 Z" fill="#EA3808" />
+  <!-- Bottom semicircle in dark slate/black -->
+  <path d="M 6,53 A 44,44 0 0,0 94,53 Z" fill="#18181B" />
+
+  <!-- White fork in top half -->
+  <path
+    d="M 24,34 L 42,34 C 45,34 47,36 48,37.5 L 75,37.5 C 76.5,37.5 76.5,40.5 75,40.5 L 48,40.5 C 47,42 45,44 42,44 L 24,44 L 24,41.5 L 39,41.5 L 39,39.8 L 24,39.8 L 24,38.2 L 39,38.2 L 39,36.5 L 24,36.5 Z"
+    fill="#FFFFFF"
+  />
+
+  <!-- White spoon in bottom half -->
+  <path
+    d="M 25,61.5 L 50,61.5 C 52,58 58,56 66,56 C 74,56 77,59 77,63 C 77,67 74,70 66,70 C 58,70 52,68 50,64.5 L 25,64.5 C 23.5,64.5 23.5,61.5 25,61.5 Z"
+    fill="#FFFFFF"
+  />
+</svg>

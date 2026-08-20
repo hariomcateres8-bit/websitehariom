@@ -1,0 +1,135 @@
+
+> build
+> vite build
+
+[33mThe plugin "vite-tsconfig-paths" is detected. Vite now supports tsconfig paths resolution natively via the [1mresolve.tsconfigPaths[22m option. You can remove the plugin and set [1mresolve.tsconfigPaths: true[22m in your Vite config instead.[39m
+[36mvite v8.2.0 [32mbuilding client environment for production...[36m[39m
+[2Ktransforming...✓ 2530 modules transformed.
+rendering chunks...
+computing gzip size...
+.output/public/assets/WhatsApp Image 2026-08-01 at 10.31.57 AM-Ca60ewRi.jpeg     217.63 kB
+.output/public/assets/WhatsApp Video 2026-08-01 at 11.06.25 AM-BPazDaK0.mp4   60,573.07 kB
+.output/public/assets/WhatsApp Video 2026-08-01 at 11.07.43 AM-YtAzeSTN.mp4   70,098.06 kB
+.output/public/assets/styles-CO91f3Qi.css                                        123.44 kB │ gzip:  18.74 kB
+.output/public/assets/check-CFDLkp-L.js                                            0.11 kB │ gzip:   0.13 kB
+.output/public/assets/chevron-left-B1Vgz2_T.js                                     0.12 kB │ gzip:   0.14 kB
+.output/public/assets/admin-2zS-X_mx.js                                            0.13 kB │ gzip:   0.14 kB
+.output/public/assets/arrow-right-zMaMn_UH.js                                      0.16 kB │ gzip:   0.16 kB
+.output/public/assets/circle-check-CTGDlAXI.js                                     0.17 kB │ gzip:   0.16 kB
+.output/public/assets/message-circle-DQT2q3kr.js                                   0.23 kB │ gzip:   0.21 kB
+.output/public/assets/heart-C9_sZJk5.js                                            0.25 kB │ gzip:   0.21 kB
+.output/public/assets/award-C8a8E9ik.js                                            0.26 kB │ gzip:   0.22 kB
+.output/public/assets/typeof-B5XbjTb1.js                                           0.27 kB │ gzip:   0.16 kB
+.output/public/assets/users-CNy8_U3S.js                                            0.30 kB │ gzip:   0.22 kB
+.output/public/assets/utensils-Bfr1q9gE.js                                         0.33 kB │ gzip:   0.24 kB
+.output/public/assets/sparkles-snPpfqks.js                                         0.48 kB │ gzip:   0.28 kB
+.output/public/assets/rolldown-runtime-B0Z9INg1.js                                 0.90 kB │ gzip:   0.51 kB
+.output/public/assets/packages-SiUS2Yvz.js                                         4.91 kB │ gzip:   1.65 kB
+.output/public/assets/about-DGY5riwf.js                                            5.49 kB │ gzip:   2.10 kB
+.output/public/assets/gallery-LtyFoGik.js                                          6.54 kB │ gzip:   2.04 kB
+.output/public/assets/contact-BsbP_76W.js                                         13.05 kB │ gzip:   3.60 kB
+.output/public/assets/services-Bpw2TKbb.js                                        17.30 kB │ gzip:   5.89 kB
+.output/public/assets/menu-planner-B1G4AF3p.js                                    18.64 kB │ gzip:   5.35 kB
+.output/public/assets/routes-OXxV7whS.js                                          23.50 kB │ gzip:   7.18 kB
+.output/public/assets/package-planner-2bgkEFYe.js                                 24.42 kB │ gzip:   6.89 kB
+.output/public/assets/purify.es-DYqNnIWS.js                                       26.86 kB │ gzip:  10.45 kB
+.output/public/assets/pdf-menu-document-DGttSmfK.js                               50.26 kB │ gzip:  11.31 kB
+.output/public/assets/site-layout-DiQUG_kF.js                                     77.00 kB │ gzip:  21.78 kB
+.output/public/assets/react-Bbx2mn_N.js                                          120.89 kB │ gzip:  39.21 kB
+.output/public/assets/index.es-BJx8hUhh.js                                       151.31 kB │ gzip:  48.88 kB
+.output/public/assets/html2canvas-2iVgEZOu.js                                    199.49 kB │ gzip:  46.77 kB
+.output/public/assets/jspdf.es.min-DJi1X9UD.js                                   399.00 kB │ gzip: 129.58 kB
+.output/public/assets/index-B9xWK2O8.js                                          408.81 kB │ gzip: 122.76 kB
+
+[32m✓ built in 9m[39m
+[36mvite v8.2.0 [32mbuilding ssr environment for production...[36m[39m
+[2Ktransforming...✓ 89 modules transformed.
+rendering chunks...
+computing gzip size...
+node_modules/.nitro/vite/services/ssr/assets/WhatsApp Image 2026-08-01 at 10.31.57 AM-Ca60ewRi.jpeg     217.63 kB
+node_modules/.nitro/vite/services/ssr/assets/WhatsApp Video 2026-08-01 at 11.06.25 AM-BPazDaK0.mp4   60,573.07 kB
+node_modules/.nitro/vite/services/ssr/assets/WhatsApp Video 2026-08-01 at 11.07.43 AM-YtAzeSTN.mp4   70,098.06 kB
+node_modules/.nitro/vite/services/ssr/assets/styles-CO91f3Qi.css                                        123.44 kB │ gzip: 18.74 kB
+node_modules/.nitro/vite/services/ssr/assets/empty-plugin-adapters-D9UWiqvJ.js                            0.22 kB │ gzip:  0.16 kB
+node_modules/.nitro/vite/services/ssr/assets/admin-DvyXTzXX.js                                            0.24 kB │ gzip:  0.20 kB
+node_modules/.nitro/vite/services/ssr/assets/package-planner-BoD_iTkJ.js                                  1.53 kB │ gzip:  0.75 kB
+node_modules/.nitro/vite/services/ssr/assets/start-RKGGYzjZ.js                                            1.57 kB │ gzip:  0.71 kB
+node_modules/.nitro/vite/services/ssr/assets/createCsrfMiddleware-B2To0gPJ.js                             3.19 kB │ gzip:  1.01 kB
+node_modules/.nitro/vite/services/ssr/assets/_tanstack-start-manifest_v-DGcttay_.js                       3.63 kB │ gzip:  0.82 kB
+node_modules/.nitro/vite/services/ssr/index.js                                                            4.61 kB │ gzip:  1.92 kB
+node_modules/.nitro/vite/services/ssr/assets/packages-DJrLk11l.js                                         6.96 kB │ gzip:  2.00 kB
+node_modules/.nitro/vite/services/ssr/assets/about-Cb06_ljy.js                                            7.41 kB │ gzip:  2.33 kB
+node_modules/.nitro/vite/services/ssr/assets/gallery-Ce-aKRHn.js                                          7.96 kB │ gzip:  2.14 kB
+node_modules/.nitro/vite/services/ssr/assets/router-CLD-aeTn.js                                          13.23 kB │ gzip:  3.66 kB
+node_modules/.nitro/vite/services/ssr/assets/contact-DeZgr8k4.js                                         17.34 kB │ gzip:  3.95 kB
+node_modules/.nitro/vite/services/ssr/assets/services-oXk-TXiA.js                                        21.22 kB │ gzip:  5.98 kB
+node_modules/.nitro/vite/services/ssr/assets/menu-planner-CURKUdge.js                                    28.57 kB │ gzip:  6.83 kB
+node_modules/.nitro/vite/services/ssr/assets/routes-Y1PJbC7q.js                                          30.95 kB │ gzip:  7.97 kB
+node_modules/.nitro/vite/services/ssr/assets/package-planner-D-cV4lsL.js                                 38.24 kB │ gzip:  8.81 kB
+node_modules/.nitro/vite/services/ssr/assets/pdf-menu-document-eQRV86mc.js                               41.92 kB │ gzip:  7.70 kB
+node_modules/.nitro/vite/services/ssr/assets/server-BZIW22MS.js                                          56.40 kB │ gzip: 14.53 kB
+node_modules/.nitro/vite/services/ssr/assets/site-layout-BJQKdowJ.js                                     92.55 kB │ gzip: 22.03 kB
+
+[32m✓ built in 3m 24s[39m
+
+[90m[[90mnitro[90m][39m [35m◐[39m Building [[35mNitro[39m] [2m(preset: [36mcloudflare-module[39m, compatibility: [36m2026-08-03[39m)[22m
+[90m[[90mnitro[90m][39m [32m✔[39m Generated public [36m.output/public[39m
+[36mvite v8.2.0 [32mbuilding nitro environment for production...[36m[39m
+
+[43m[30m WARN [39m[49m [36minlineDynamicImports[39m option is ignored because the [36mcodeSplitting[39m option is specified.
+
+[2Ktransforming...✓ 2558 modules transformed.
+rendering chunks...
+computing gzip size...
+.output/server/_libs/motion.mjs                           0.16 kB │ gzip:   0.13 kB
+.output/server/_ssr/empty-plugin-adapters-D9UWiqvJ.mjs    0.23 kB │ gzip:   0.16 kB
+.output/server/_ssr/admin-DvyXTzXX.mjs                    0.38 kB │ gzip:   0.27 kB
+.output/server/_chunks/ssr-renderer.mjs                   0.60 kB │ gzip:   0.36 kB
+.output/server/_libs/hookable.mjs                         1.16 kB │ gzip:   0.51 kB
+.output/server/_ssr/start-RKGGYzjZ.mjs                    1.53 kB │ gzip:   0.70 kB
+.output/server/_ssr/package-planner-BoD_iTkJ.mjs          1.70 kB │ gzip:   0.82 kB
+.output/server/_runtime.mjs                               1.79 kB │ gzip:   0.80 kB
+.output/server/_ssr/createCsrfMiddleware-B2To0gPJ.mjs     3.11 kB │ gzip:   1.01 kB
+.output/server/_tanstack-start-manifest_v-DGcttay_.mjs    3.69 kB │ gzip:   0.85 kB
+.output/server/_libs/babel__runtime.mjs                   4.01 kB │ gzip:   1.38 kB
+.output/server/_ssr/ssr.mjs                               4.55 kB │ gzip:   1.92 kB
+.output/server/_ssr/packages-DJrLk11l.mjs                 8.11 kB │ gzip:   2.10 kB
+.output/server/_ssr/about-Cb06_ljy.mjs                    8.41 kB │ gzip:   2.41 kB
+.output/server/_ssr/gallery-Ce-aKRHn.mjs                  8.79 kB │ gzip:   2.23 kB
+.output/server/_libs/h3-v2+rou3+srvx.mjs                  9.87 kB │ gzip:   3.06 kB
+.output/server/_libs/fflate.mjs                          11.90 kB │ gzip:   4.38 kB
+.output/server/_libs/tanstack__history.mjs               12.09 kB │ gzip:   3.48 kB
+.output/server/_ssr/router-CLD-aeTn.mjs                  13.55 kB │ gzip:   3.72 kB
+.output/server/_libs/h3+rou3+srvx.mjs                    16.62 kB │ gzip:   4.80 kB
+.output/server/_libs/react+tanstack__react-query.mjs     17.65 kB │ gzip:   4.65 kB
+.output/server/index.mjs                                 17.94 kB │ gzip:   5.24 kB
+.output/server/_ssr/contact-DeZgr8k4.mjs                 19.99 kB │ gzip:   4.10 kB
+.output/server/_libs/lucide-react.mjs                    21.70 kB │ gzip:   4.66 kB
+.output/server/_libs/sonner.mjs                          22.72 kB │ gzip:   4.95 kB
+.output/server/_ssr/services-oXk-TXiA.mjs                23.78 kB │ gzip:   6.15 kB
+.output/server/_ssr/menu-planner-CURKUdge.mjs            32.26 kB │ gzip:   7.02 kB
+.output/server/_ssr/routes-Y1PJbC7q.mjs                  34.79 kB │ gzip:   8.14 kB
+.output/server/_ssr/package-planner-D-cV4lsL.mjs         42.43 kB │ gzip:   9.08 kB
+.output/server/_ssr/pdf-menu-document-eQRV86mc.mjs       48.00 kB │ gzip:   7.99 kB
+.output/server/_libs/tanstack__query-core.mjs            48.17 kB │ gzip:  10.70 kB
+.output/server/_ssr/server-BZIW22MS.mjs                  54.77 kB │ gzip:  14.38 kB
+.output/server/_libs/dompurify.mjs                       74.40 kB │ gzip:  20.29 kB
+.output/server/_ssr/site-layout-BJQKdowJ.mjs             95.59 kB │ gzip:  22.18 kB
+.output/server/_libs/zod.mjs                            100.26 kB │ gzip:  17.35 kB
+.output/server/_libs/@tanstack/router-core+[...].mjs    121.29 kB │ gzip:  25.53 kB
+.output/server/_libs/fast-png+iobuffer+pako.mjs         142.86 kB │ gzip:  32.95 kB
+.output/server/_libs/html2canvas.mjs                    318.21 kB │ gzip:  63.07 kB
+.output/server/_libs/canvg+[...].mjs                    330.64 kB │ gzip:  72.80 kB
+.output/server/_libs/framer-motion.mjs                  338.35 kB │ gzip:  88.41 kB
+.output/server/_libs/jspdf.mjs                          477.55 kB │ gzip: 124.31 kB
+.output/server/_libs/@tanstack/react-router+[...].mjs   649.73 kB │ gzip: 137.08 kB
+
+[32m✓ built in 5m 23s[39m
+[90m[[90mnitro[90m][39m [36mℹ[39m Using auto generated worker name: [36mrushitamakwana-hari-om-cateres[39m
+[36mℹ[39m Generated [36m.output/server/wrangler.json[39m
+[36mℹ[39m Generated [36m.wrangler/deploy/config.json[39m
+[36mℹ[39m Generated [36m.output/public/_headers[39m
+[36mℹ[39m Generated [36m.output/nitro.json[39m
+
+[90m[[90mnitro[90m][39m [32m✔[39m You can preview this build using [36mnpx vite preview[39m
+[90m[[90mnitro[90m][39m [32m✔[39m You can deploy this build using [36mnpx nitro deploy --prebuilt[39m
