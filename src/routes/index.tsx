@@ -14,6 +14,7 @@ import realFoodCanapes2 from "@/assets/images/WhatsApp Image 2026-08-01 at 10.31
 import realFoodDips3 from "@/assets/images/WhatsApp Image 2026-08-01 at 10.31.58 AM (3).jpeg";
 import realFoodPaneer4 from "@/assets/images/WhatsApp Image 2026-08-01 at 10.31.58 AM (7).jpeg";
 import { RotatingDishShowcase } from "@/components/rotating-dish-showcase";
+import heroVideo from "@/assets/videos/hero.mp4";
 
 export const Route = createFileRoute("/")({
   head: () => ({
@@ -129,11 +130,14 @@ function HomePage() {
               {/* Main Featured Food Card */}
               <div className="relative mx-auto max-w-lg rounded-3xl p-3.5 bg-white/90 border border-red-200/80 backdrop-blur-xl shadow-xl overflow-hidden group">
                 <div className="relative rounded-2xl overflow-hidden aspect-[4/3] shadow-inner bg-stone-100">
-                  <img
-                    src={realFoodGrazing1}
-                    alt="Live Grazing Station & Dips Bar"
-                    className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
-                  />
+              <video
+  src={heroVideo}
+  autoPlay
+  muted
+  loop
+  playsInline
+  className="w-full h-full object-cover"
+/>
                   <div className="absolute inset-0 bg-gradient-to-t from-black/80 via-transparent to-transparent" />
                   <div className="absolute bottom-4 left-4 right-4 flex items-center justify-between text-white">
                     <div>
