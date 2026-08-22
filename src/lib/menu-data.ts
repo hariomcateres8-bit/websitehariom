@@ -1678,7 +1678,7 @@ export const CONTACT = {
   phone: "9824615399",
   altPhone: "9824615399",
   whatsapp: "919824615399",
-  email: "contact@hariomcatars.com",
+  email: "contact@hariomcaterers.com",
   name: "Khimjibhai Purohit",
   business: "Hariom Caterers",
 };
@@ -2234,7 +2234,7 @@ export const COMPANY_INFO = {
   owner: "Khimjibhai Purohit",
   phone: "9824615399",
   whatsapp: "919824615399",
-  email: "contact@hariomcatars.com",
+  email: "contact@hariomcaterers.com",
   city: "Ahmedabad, Gujarat",
   tagline: "Exquisite Pure Vegetarian Event Catering",
   aboutUs:
